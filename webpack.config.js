@@ -24,6 +24,14 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
       },
+      {
+        test: /\.css$/,         // Para arquivos CSS
+        use: [
+          'style-loader',      // Adiciona o CSS ao DOM via <style> tag
+          'css-loader',        // Resolve importações CSS
+          'postcss-loader',    // Processa CSS com o PostCSS
+        ],
+      },
     ],
   },
   plugins: [

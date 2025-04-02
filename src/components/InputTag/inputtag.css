@@ -1,0 +1,22 @@
+.css-3w2yfm-ValueContainer {
+    padding: 2px 0px !important;
+}
+
+#inputtag>span {
+    position: absolute;
+    top: 1rem;
+    z-index: 10;
+    transform-origin: 0;
+    transition-duration: 300ms;
+}
+
+#inputtag:focus-within>span {
+    color: var(--blue-700);
+    transform: scale(.75) translateY(-1rem);
+    transition-duration: 300ms;
+}
+
+#inputtag:focus-within>span.text-dangerous-700,
+#inputtag>span.text-dangerous-700 {
+    color: var(--dangerous-700);
+}

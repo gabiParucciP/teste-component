@@ -1,0 +1,99 @@
+@import "tailwindcss";
+@import "@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "@blueprintjs/core/lib/css/blueprint.css";
+@import 'react-loading-skeleton/dist/skeleton.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+body {
+  margin: 0;
+  font-family: "Inter" sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: 1;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 16px;
+}
+
+
+:root {
+  --rose-100: #FFECF2;
+  --rose-500: #E99AA2;
+  --rose-600: #E37687;
+  --rose-700: #DA3063;
+  --rose-800: #BD2756;
+  --rose-900: #A31E49;
+  --blue-100: #EDF7FF;
+  --blue-500: #92C5EB;
+  --blue-600: #65B4E4;
+  --blue-700: #009EDB;
+  --blue-800: #008BC0;
+  --blue-900: #0078A7;
+  --dark-blue-300: #B9B7BF;
+  --dark-blue-400: #868491;
+  --dark-blue-500: #5C5C6B;
+  --dark-blue-600: #393C4D;
+  --dark-blue-700: #162034;
+  --light-50: #FAFAFA;
+  --light-100: #F5F5F5;
+  --light-200: #E8E8E9;
+  --success-100: #EAFFF5;
+  --success-700: #0DBC68;
+  --success-800: #07A65A;
+  --warning-100: #FFF1DC;
+  --warning-700: #F29914;
+  --warning-800: #D37F00;
+  --dangerous-100: #FFEBEB;
+  --dangerous-700: #DE3939;
+  --dangerous-800: #CD1D1D;
+  --purple-100: #F8D8FF;
+  --purple-700: #B310D6;
+  --purple-800: #8C04A9;
+  --yellow-100: #FFFAD1;
+  --yellow-700: #F4E02E;
+  --yellow-800: #DEC802;
+  --button-label: #FFFFFF;
+  --input: #E8E8E9;
+  --disabled: #B9B7BF;
+  --label: #868491;
+  --paragraph: #393C4D;
+  --title: #162034;
+  --grad-rose-start: #FF3171;
+  --grad-rose-end: #DA3063;
+  --grad-blue-start: #009EDB;
+  --grad-blue-end: #0077CD;
+  --grad-dark-blue-start: #393C4D;
+  --grad-dark-blue-end: #162034;
+  --grad-success-start: #2CF193;
+  --grad-success-end: #0DBC68;
+  --grad-warning-start: #FFB84E;
+  --grad-warning-end: #F29914;
+  --grad-danger-start: #FF5454;
+  --grad-danger-end: #DE3939;
+
+  --button-shadow: #393c4d26;
+  --rt-transition-show-delay: 0.3s !important;
+  --rt-transition-closing-delay: 0.3s !important;
+}

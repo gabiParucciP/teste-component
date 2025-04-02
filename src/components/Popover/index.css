@@ -1,0 +1,12 @@
+.react-tooltip[role='tooltip'] {
+    background-color: var(--dark-blue-700);
+    border-radius: 6px;
+    font-size: 14px;
+    color: var(--light-100);
+    padding: 8px 16px;
+    z-index: 999;
+    font-weight: 400;
+    max-width: 430px;
+    line-height: 18px;
+    transition: none !important;
+}

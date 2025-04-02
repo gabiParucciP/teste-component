@@ -1,0 +1,30 @@
+.css-3w2yfm-ValueContainer {
+    padding: 2px 0px !important;
+}
+
+#multiselectbottom>span {
+    position: absolute;
+    top: 0.80rem;
+    z-index: 10;
+    transform-origin: 0;
+    transition-duration: 300ms;
+}
+
+#multiselectbottom:focus-within>span {
+    color: var(--blue-700);
+    transform: scale(.75) translateY(-1rem);
+    transition-duration: 300ms;
+}
+
+#multiselectbottom:focus-within>span.text-dangerous-700,
+#multiselectbottom>span.text-dangerous-700 {
+    color: var(--dangerous-700);
+}
+
+.with-label .css-1fdsijx-ValueContainer,
+.with-label .css-3w2yfm-ValueContainer {
+    padding-top: 13px !important;
+    padding-bottom: 4px;
+    height: 52px;
+    padding-left: 0px;
+}
